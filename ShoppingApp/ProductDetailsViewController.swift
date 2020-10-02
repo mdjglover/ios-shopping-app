@@ -8,8 +8,16 @@
 
 import UIKit
 
-class ProductDetailsViewController: UIViewController {
-
+class ProductDetailsViewController: UIViewController  {
+    
+    var product : Product
+    
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var productLabel: UILabel!
+    @IBOutlet weak var makerLabel: UILabel!
+    
+    @IBOutlet weak var quantityTF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
